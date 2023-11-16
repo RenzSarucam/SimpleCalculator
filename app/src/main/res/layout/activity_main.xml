@@ -41,35 +41,35 @@
 
         <Button
             android:id="@+id/btn_add"
-            android:text="+"
-            android:textSize="20sp"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
             android:layout_marginEnd="5sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-        <Button
-            android:id="@+id/btn_mul"
-            android:text="X"
-            android:textSize="20sp"
-            android:layout_marginEnd="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-        <Button
-            android:id="@+id/btn_div"
-            android:text="/"
-            android:textSize="20sp"
-            android:layout_marginEnd="5dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:text="+"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/btn_sub"
-            android:layout_width="wrap_content"
+            android:layout_width="66dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="5dp"
             android:text="-"
             android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btn_mul"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="X"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_div"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="%"
+            android:textSize="20sp" />
 
 
     </LinearLayout>
